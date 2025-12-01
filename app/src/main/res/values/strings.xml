@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">e-kin</string>
+    <!-- Firebase Google Sign-In için Web client ID. Firebase Console > Project settings > General > Your apps > google-services.json içindeki oauth_client.client_id (client_type=3) değerini buraya koyun. -->
+    <string name="default_web_client_id">781733899121-r62fjc0v7sqa0sb1mahv9n6tb30tpkob.apps.googleusercontent.com</string>
+</resources>
+
+
+
+
+

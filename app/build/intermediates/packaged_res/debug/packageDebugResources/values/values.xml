@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string name="app_name">e-kin</string>
+    <string name="com.google.firebase.crashlytics.mapping_file_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">00000000000000000000000000000000</string>
+    <string name="default_web_client_id">781733899121-r62fjc0v7sqa0sb1mahv9n6tb30tpkob.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">781733899121</string>
+    <string name="google_api_key" translatable="false">AIzaSyCA9KpL-sFKshacGbX4mIgKZrhh8XcjJ5g</string>
+    <string name="google_app_id" translatable="false">1:781733899121:android:49e70e8b9c1f93e6d024d0</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCA9KpL-sFKshacGbX4mIgKZrhh8XcjJ5g</string>
+    <string name="google_storage_bucket" translatable="false">e-kin-f78f1.firebasestorage.app</string>
+    <string name="project_id" translatable="false">e-kin-f78f1</string>
+    <style name="Theme.Ekin" parent="Theme.Material3.DayNight.NoActionBar"/>
+</resources>

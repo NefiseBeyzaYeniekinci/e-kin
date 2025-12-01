@@ -1,0 +1,88 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'org.jetbrains.kotlin.plugin.compose'
+    id 'com.google.dagger.hilt.android'
+    id 'com.google.gms.google-services'
+    id 'com.google.firebase.crashlytics'
+    id 'kotlin-kapt'
+}
+
+android {
+    namespace 'com.ekin.app'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.ekin.app'
+        minSdk 24
+        targetSdk 35
+        versionCode 1
+        versionName '0.1.0'
+        vectorDrawables {
+            useSupportLibrary true
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
+        }
+    }
+
+    buildFeatures {
+        compose true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_21
+        targetCompatibility JavaVersion.VERSION_21
+    }
+    kotlin {
+        jvmToolchain(21)
+    }
+}
+
+dependencies {
+    implementation project(':core:ui')
+    implementation project(':feature:onboarding')
+    implementation project(':feature:auth')
+    implementation project(':feature:map')
+    implementation project(':feature:profile')
+    implementation project(':feature:plants')
+
+    implementation platform('androidx.compose:compose-bom:2024.10.01')
+    implementation 'androidx.compose.ui:ui'
+    implementation 'androidx.compose.material3:material3'
+    implementation 'androidx.compose.material:material-icons-extended'
+    implementation 'androidx.compose.ui:ui-tooling-preview'
+    debugImplementation 'androidx.compose.ui:ui-tooling'
+    implementation 'androidx.core:core-ktx:1.13.1'
+    implementation 'androidx.navigation:navigation-compose:2.8.3'
+    implementation 'com.google.android.material:material:1.12.0'
+
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.8.6'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-compose:2.8.6'
+
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0'
+
+    implementation 'com.google.dagger:hilt-android:2.52'
+    kapt 'com.google.dagger:hilt-android-compiler:2.52'
+
+    implementation platform('com.google.firebase:firebase-bom:33.5.1')
+    implementation 'com.google.firebase:firebase-auth-ktx'
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+    implementation 'com.google.firebase:firebase-crashlytics-ktx'
+    implementation 'com.google.firebase:firebase-firestore-ktx'
+    implementation 'com.google.firebase:firebase-storage-ktx'
+
+    implementation 'com.google.android.gms:play-services-auth:21.2.0'
+    implementation 'com.google.maps.android:maps-compose:4.3.0'
+    implementation 'com.google.android.gms:play-services-maps:18.2.0'
+    
+    implementation 'io.coil-kt:coil-compose:2.5.0'
+}
+
+

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "781733899121",
+    "project_id": "e-kin-f78f1",
+    "storage_bucket": "e-kin-f78f1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781733899121:android:49e70e8b9c1f93e6d024d0",
+        "android_client_info": {
+          "package_name": "com.ekin.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA9KpL-sFKshacGbX4mIgKZrhh8XcjJ5g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

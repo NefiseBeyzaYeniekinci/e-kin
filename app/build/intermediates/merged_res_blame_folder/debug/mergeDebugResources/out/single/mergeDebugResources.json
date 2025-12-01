@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "com.ekin.app-debug-6:/mipmap-mdpi_icon2.jpg.flat",
+        "source": "com.ekin.app-main-8:/mipmap-mdpi/icon2.jpg"
+    },
+    {
+        "merged": "com.ekin.app-debug-6:/mipmap-xxxhdpi_icon2.jpg.flat",
+        "source": "com.ekin.app-main-8:/mipmap-xxxhdpi/icon2.jpg"
+    },
+    {
+        "merged": "com.ekin.app-debug-6:/mipmap-xxhdpi_icon2.jpg.flat",
+        "source": "com.ekin.app-main-8:/mipmap-xxhdpi/icon2.jpg"
+    },
+    {
+        "merged": "com.ekin.app-debug-6:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.ekin.app-main-8:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.ekin.app-debug-6:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.ekin.app-main-8:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.ekin.app-debug-6:/mipmap-hdpi_icon2.jpg.flat",
+        "source": "com.ekin.app-main-8:/mipmap-hdpi/icon2.jpg"
+    },
+    {
+        "merged": "com.ekin.app-debug-6:/mipmap-xhdpi_icon2.jpg.flat",
+        "source": "com.ekin.app-main-8:/mipmap-xhdpi/icon2.jpg"
+    },
+    {
+        "merged": "com.ekin.app-debug-6:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.ekin.app-main-8:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.ekin.app-debug-6:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.ekin.app-main-8:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.ekin.app-debug-6:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.ekin.app-main-8:/mipmap-hdpi/ic_launcher.png"
+    }
+]

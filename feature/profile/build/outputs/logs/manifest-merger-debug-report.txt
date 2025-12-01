@@ -1,0 +1,15 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Android\e-kin\feature\profile\src\main\AndroidManifest.xml:2:1-48
+INJECTED from C:\Android\e-kin\feature\profile\src\main\AndroidManifest.xml:2:1-48
+	package
+		ADDED from C:\Android\e-kin\feature\profile\src\main\AndroidManifest.xml:2:11-45
+		INJECTED from C:\Android\e-kin\feature\profile\src\main\AndroidManifest.xml
+uses-sdk
+INJECTED from C:\Android\e-kin\feature\profile\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Android\e-kin\feature\profile\src\main\AndroidManifest.xml
+INJECTED from C:\Android\e-kin\feature\profile\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Android\e-kin\feature\profile\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Android\e-kin\feature\profile\src\main\AndroidManifest.xml
