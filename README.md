@@ -24,5 +24,3 @@ E-Kin, Android platformu için geliştirilmiş modüler yapıda bir mobil uygula
 
 ---
 
-## 📂 Proje Yapısı
-
